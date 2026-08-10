@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uatizapi</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.5.1/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+</head>
+<body>
+    <div class="chat-conteiner">
+        <h2>Chat de mensagens</h2>
+
+        <ul id="messages-list"></ul>
+            <div class="input-row">
+                <input type="text" id="message" placeholder="Digite uma mensagem aqui" onkeypress="handleKeyPress(event)"/>
+                <button onclick="sendMessage()">Enviar</button>
+            </div>>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
